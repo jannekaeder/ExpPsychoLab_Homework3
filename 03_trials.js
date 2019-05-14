@@ -4,16 +4,22 @@
 const trial_info = {
     forced_choice: [
         {
-            question: "What's on the bread?",
-            picture: "images/question_mark_02.png",
-            option1: 'jam',
-            option2: 'ham'
+            question: "Are these two figures the same except for their orientation?",
+            picture: "images/1_50_same.jpg",
+            key1: 'f',
+            key2: 'j',
+            f: 'same',
+            j: 'different',
+            expected: 'same'
         },
         {
-            question: "What's the weather like?",
-            picture: "images/weather.jpg",
-            option1: "shiny",
-            option2: "rainbow"
+            question: "Are these two figures the same except for their orientation?",
+            picture: "images/4_50_same.jpg",
+            key1: "f",
+            key2: "j",
+            f: 'same',
+            j: 'different',
+            expected: 'same'
         }
     ],
 };
