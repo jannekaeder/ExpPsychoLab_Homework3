@@ -20,6 +20,40 @@ const trial_info = {
             f: 'same',
             j: 'different',
             expected: 'same'
+        },
+        
+        {
+            question: "Are these two figures the same except for their orientation?",
+            picture: "images/4_50_different.jpg",
+            key1: "f",
+            key2: "j",
+            f: 'same',
+            j: 'different',
+            expected: 'different'
+        },
+
+        {
+            question: "Are these two figures the same except for their orientation?",
+            picture: "images/5_150_same.jpg",
+            key1: "f",
+            key2: "j",
+            f: 'same',
+            j: 'different',
+            expected: 'same'
+        },
+
+        {
+            question: "Are these two figures the same except for their orientation?",
+            picture: "images/6_150_same.jpg",
+            key1: "f",
+            key2: "j",
+            f: 'same',
+            j: 'different',
+            expected: 'same'
         }
+
+        
+        
+        
     ],
 };
