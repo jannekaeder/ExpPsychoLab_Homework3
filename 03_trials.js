@@ -2,7 +2,7 @@
 
 
 const trial_info = {
-    forced_choice: [
+  forced_choice: [
         {
             question: "Are these two figures the same except for their orientation?",
             picture: "images/1_50_same.jpg",
@@ -10,8 +10,13 @@ const trial_info = {
             key2: 'j',
             f: 'same',
             j: 'different',
-            expected: 'same'
+            expected: 'same',
+            rotation: '50',
+            picture_number: '1'
+
         },
+
+
         {
             question: "Are these two figures the same except for their orientation?",
             picture: "images/4_50_same.jpg",
@@ -19,9 +24,11 @@ const trial_info = {
             key2: "j",
             f: 'same',
             j: 'different',
-            expected: 'same'
+            expected: 'same',
+            rotation: '50',
+            picture_number: '4'
         },
-        
+
         {
             question: "Are these two figures the same except for their orientation?",
             picture: "images/4_50_different.jpg",
@@ -29,7 +36,10 @@ const trial_info = {
             key2: "j",
             f: 'same',
             j: 'different',
-            expected: 'different'
+            expected: 'different',
+            rotation: '50',
+            picture_number: '4'
+
         },
 
         {
@@ -39,7 +49,10 @@ const trial_info = {
             key2: "j",
             f: 'same',
             j: 'different',
-            expected: 'same'
+            expected: 'same',
+            rotation: '150',
+            picture_number: '5'
+
         },
 
         {
@@ -49,10 +62,10 @@ const trial_info = {
             key2: "j",
             f: 'same',
             j: 'different',
-            expected: 'same'
+            expected: 'same',
+            rotation: '150',
+            picture_number: '6'
         }
-
-        
         
         
     ],
