@@ -2,7 +2,7 @@
 
 
 const trial_info = {
-  forced_choice: [
+  key_press: [
         {
             question: "Are these two figures the same except for their orientation?",
             picture: "images/1_50_same.jpg",
@@ -66,7 +66,7 @@ const trial_info = {
             rotation: '150',
             picture_number: '6'
         }
-        
-        
+
+
     ],
 };
